@@ -12,4 +12,4 @@ stratup-instraction:
 
 выполни миграцию: docker-compose exec php php artisan migrate
 
-зайди на http://127.0.0.1:8001/ для проверки работоспособности
+зайди на http://127.0.0.1:8000/ для проверки работоспособности
