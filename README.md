@@ -4,9 +4,19 @@ new
 
 stratup-instraction:
 
+открой докер десктоп
+
+перейти в директурию проекта: cd docker-containers-kf
+
 перейдите в директурию dev: cd deploy\dev
 
 забилди контейнеры: docker-compose up -d --build
+
+перейдите в директурию dev: cd deploy\prod
+
+забилди контейнеры: docker-compose up -d --build
+
+перейдите в директурию dev: cd deploy\dev
 
 сгенерируй ключ: docker-compose exec php php artisan key:generate
 
