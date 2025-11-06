@@ -6,7 +6,7 @@ stratup-instraction:
 
 открой докер десктоп
 
-перейти в директурию проекта: cd docker-containers-kf
+перейти в директурию проекта
 
 перейдите в директурию dev: cd deploy\dev
 
