@@ -10,9 +10,9 @@ stratup-instraction:
 
 перейдите в директурию dev: cd deploy\dev
 
-composer install: docker-compose exec php composer install
-
 забилди контейнеры: docker-compose up -d --build
+
+composer install: docker-compose exec php composer install
 
 перейдите в директурию dev: cd deploy\prod
 
